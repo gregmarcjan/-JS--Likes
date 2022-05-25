@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <!-- NavBar Start -->
+
+        <div class="navbar">
+            <h1>Network</h2>
+        </div>
+
+        <!-- NavBar End -->
+
+        <!-- First like start -->
+
+        <div class="first_line">
+            <h1>Your Feed</h2>
+        </div>
+
+        <!-- First like end -->
+
+        <!-- Main box starts -->
+
+        <div class="main_box">
+            <div class="col1">
+                <div class="left_box">
+                    <img src="Assets\user-circle.png"></img>
+                    <a href="#">Add an avatar</a>
+                    <p class="name">James Doe</p>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="right_box">
+                    <div class="right_box_top">
+                        <div class="right_box_top_left">
+                            <p class="name">Neil M</p>
+                        </div>
+                        <div class="right_box_top_center">
+                            <p class="likes1" id="count1">9 like(s)</p>
+                        </div>
+                        <div class="right_box_top_right">
+                            <Button class="LikeButton" onclick="topButtonClicked()">Like</Button>
+                        </div>
+                    </div>
+                    <div class="right_box_bottom">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="right_box">
+                    <div class="right_box_top">
+                        <div class="right_box_top_left">
+                            <p class="name">Nichole K</p>
+                        </div>
+                        <div class="right_box_top_center">
+                            <p class="likes2" id="count2">12 like(s)</p>
+                        </div>
+                        <div class="right_box_top_right">
+                            <Button class="LikeButton" onclick="middleButtonClicked()">Like</Button>
+                        </div>
+                    </div>
+                    <div class="right_box_bottom">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="right_box">
+                    <div class="right_box_top">
+                        <div class="right_box_top_left">
+                            <p class="name">Jim R</p>
+                        </div>
+                        <div class="right_box_top_center">
+                            <p class="likes3" id="count3">9 like(s)</p>
+                        </div>
+                        <div class="right_box_top_right">
+                            <Button class="LikeButton" onclick="bottomButtonClicked()">Like</Button>
+                        </div>
+                    </div>
+                    <div class="right_box_bottom">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main box ends -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
